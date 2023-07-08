@@ -1,0 +1,71 @@
+
+a {
+    all: unset;
+    text-decoration: none;
+  }
+
+
+.block {
+    height: 550px;
+}
+
+.main {
+    height: 100%;
+}
+
+input {
+    border-bottom: 1px solid lightgray;
+}
+
+.custom-hover:hover {
+    background-color: lightgrey;
+    border-radius: 12px;
+    
+}
+
+
+.custom-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .custom-link:hover {
+    color: #0056b3;
+
+  }
+
+  .img {
+    width: 52px;
+  }
+ 
+  .insta {
+    display: none;
+  }
+
+
+  @media screen and (max-width: 1263px) {
+    .title-nav {
+        display: none;
+    }
+    
+    h3 {
+        display: none;
+    }
+
+    .insta {
+        display: block;
+    }
+
+    header {
+        width: 80px;
+    }
+  }
+
+
+  
+
+  @media screen and (max-width: 1160px) {
+    .follow {
+        display: none;
+    }
+  }
